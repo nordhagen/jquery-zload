@@ -1,0 +1,17 @@
+{
+	"name": "jquery-zload",
+	"description": "Blazing fast jQuery plugin for lazy loading background images.",
+	"version": "0.1.1",
+	"author": "nordhagen <oyvind@oyvindnordhagen.com>",
+	"keywords": ["javascript", "jquery", "lazy loading"],
+	"dependencies": {},
+	"devDependencies": {},
+	"main": "jquery-zload.js",
+	"scripts": {},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/nordhagen/jquery-zload.git"
+	},
+	"readmefile": "README.md",
+	"readme": "Blazing fast jQuery plugin for lazy loading background images."
+}
