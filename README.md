@@ -30,3 +30,7 @@ Setting `unload : true` will make background images disappear whenever an elemen
 If you'd like some other default background image to show when the element is scrolled out of the viewport you can set it here, i.e. `'images/notloaded.png'`. Defaults to `'none'`.
 ###delay###
 Lets you customize how long the pause in scrolling has to be for Zload to kick in and start applying background images. Defaults to 30 milliseconds.
+
+##Contact##
+- <http://twitter.com/nordhagen>
+- <http://oyvindnordhagen.com>
