@@ -9,7 +9,7 @@
  * Project home:
  *   https://github.com/nordhagen/jquery-zload
  *
- * Version:  0.1.2
+ * Version:  0.1.3
  *
  */
 

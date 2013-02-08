@@ -1,6 +1,6 @@
 {
   "name": "jquery-zload",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "main": ["./jquery.zload.js"],
   "dependencies": {}
 }
