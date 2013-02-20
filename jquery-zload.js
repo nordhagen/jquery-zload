@@ -9,7 +9,7 @@
  * Project home:
  *   https://github.com/nordhagen/jquery-zload
  *
- * Version:  0.1.3
+ * Version:  0.1.4
  *
  */
 
@@ -20,7 +20,7 @@
     o.attribute = o.attribute || 'original';    // Name of data attribute containing image source path
     o.fallback  = o.fallback  || 'none';        // Value to set for background-image when outside viewport
     o.unload    = o.unload    || false;         // true will remove background-images when el leaves viewport
-    o.delay     = o.delay     || 30;           // Delay between when scrolling stops and lazyload kicks in
+    o.delay     = o.delay     || 30;            // Delay between when scrolling stops and lazyload kicks in
 
     o.fallback = o.fallback === 'none' ? o.fallback : 'url(' + o.fallback + ')';
 
@@ -37,6 +37,7 @@
 
     // No more scroll events within delay time, proceed.
     var loop = function(){
+      if (typeof(o.beforeLoop) === 'function') o.beforeLoop($el);
       var w_top = $window.scrollTop();
       var w_bottom = $window.height() + w_top;
 
@@ -58,6 +59,7 @@
           $el.css('background-image', o.fallback);
         }
       });
+      if (typeof(o.afterLoop) === 'function') o.afterLoop($el);
     };
 
     $window.scroll(update);
