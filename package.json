@@ -1,19 +1,27 @@
 {
-	"name": "jquery-zload",
-	"description": "Blazing fast jQuery plugin for lazy loading background images.",
-	"version": "0.1.4",
-	"author": "nordhagen <oyvind@oyvindnordhagen.com>",
-	"keywords": ["javascript", "jquery", "lazy loading"],
-	"dependencies": {},
-	"devDependencies": {
-		"uglify-js": "2.2.4"
-	},
-	"main": "jquery-zload.js",
-	"scripts": {},
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/nordhagen/jquery-zload.git"
-	},
-	"readmefile": "README.md",
-	"readme": "Blazing fast jQuery plugin for lazy loading background images."
+  "name": "jquery-zload",
+  "description": "Blazing fast jQuery plugin for lazy loading background images.",
+  "version": "0.1.4",
+  "author": "nordhagen <oyvind@oyvindnordhagen.com>",
+  "keywords": [
+    "javascript",
+    "jquery",
+    "lazy loading"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "uglify-js": "2.2.4",
+    "mocha": "~1.17.0"
+  },
+  "main": "jquery-zload.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nordhagen/jquery-zload.git"
+  },
+  "scripts" : {
+    "test" : "./node_modules/mocha/bin/mocha"
+  },
+  "readmefile": "README.md",
+  "readme": "Blazing fast jQuery plugin for lazy loading background images."
 }
