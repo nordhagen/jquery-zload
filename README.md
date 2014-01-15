@@ -1,7 +1,7 @@
 jquery-zload
 ============
 
-[https://www.codeship.io/projects/8bee8bc0-6017-0131-895d-3e668197b56e/status]
+![Codeship Status](https://www.codeship.io/projects/8bee8bc0-6017-0131-895d-3e668197b56e/status)
 
 Blazing fast jQuery plugin for lazy loading background images.
 
