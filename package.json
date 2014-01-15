@@ -20,7 +20,7 @@
     "url": "git://github.com/nordhagen/jquery-zload.git"
   },
   "scripts" : {
-    "test" : "node_modules/mocha/bin/mocha"
+    "test" : "mocha"
   },
   "readmefile": "README.md",
   "readme": "Blazing fast jQuery plugin for lazy loading background images."
