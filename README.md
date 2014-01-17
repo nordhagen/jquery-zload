@@ -1,8 +1,6 @@
 jquery-zload
 ============
 
-![Codeship Status](https://www.codeship.io/projects/8bee8bc0-6017-0131-895d-3e668197b56e/status)
-
 Blazing fast jQuery plugin for lazy loading background images.
 
 **Note:** This plugin is designed for performance over features. It only handles the `background-image` css property and it will wait for scrolling to stop before doing any work. For a full featured solution that also handles horizontal scrolling and img tags, check out Mika Tuupola's LazyLoad: <http://www.appelsiini.net/projects/lazyload>.
