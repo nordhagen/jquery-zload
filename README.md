@@ -18,7 +18,7 @@ The `.zload()` function takes an options object as its only argument. Calling it
 
 	$('.image-container').zload({
 		attribute : 'original',
-		unload    : false',
+		unload    : false,
 		fallback  : 'none',
 		delay     : 30
 	});
