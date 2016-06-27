@@ -1,7 +1,7 @@
 {
   "name": "jquery-zload",
   "description": "Blazing fast jQuery plugin for lazy loading background images.",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "author": "nordhagen <oyvind@oyvindnordhagen.com>",
   "keywords": [
     "javascript",
